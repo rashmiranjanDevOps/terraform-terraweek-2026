@@ -412,11 +412,11 @@ The logic: the source closest to the person actually running the command (a CLI 
 > Screenshots captured from my own terminal while running each command.
 
 <!-- ![Terraform Init](screenshots/terraform-init.png) -->
-![Terraform Plan](screenshots/terraform-plan.png)
-![Terraform Apply](screenshots/terraform-apply.png)
-![Nginx Running](screenshots/nginx-running.png)
-![Terraform Output](screenshots/terraform-output.png)
-![Terraform Destroy](screenshots/terraform-destroy.png)
+![Terraform Plan](Screenshots/terraform-plan.png)
+![Terraform Apply](Screenshots/terraform-apply.png)
+![Nginx Running](Screenshots/nginx-running.png)
+![Terraform Output](Screenshots/terraform-output.png)
+![Terraform Destroy](Screenshots/terraform-destroy.png)
 <!-- ![Terraform Console](screenshots/terraform-console.png) -->
 
 ---
