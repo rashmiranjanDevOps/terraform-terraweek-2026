@@ -283,7 +283,7 @@ lifecycle {
 ![Nginx Running](screenshots/awsec2console.png)
 ![Terraform Output](screenshots/terraform-output.png)
 ![Terraform Destroy](screenshots/terraform-destroy.png)
-![Terraform Console](Screenshots/awsresources.png)
+![Terraform Console](screenshots/awsresources.png)
 
 
 ---
