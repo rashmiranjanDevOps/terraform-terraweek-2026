@@ -54,15 +54,16 @@ Day-4/
 ├── README.md
 ├── notes.md
 ├── backend_infra/
-│   ├── provider.tf
-│   ├── main.tf          # S3 bucket, versioning, encryption
-│   └── outputs.tf
+│   ├── terraform.tf      # required_version, required_providers, provider config
+│   ├── variables.tf      # input variables (bucket name, region, etc.)
+│   ├── resources.tf      # S3 bucket, versioning, encryption
+│   └── outputs.tf        # bucket name/ARN exposed for reference
 │
 ├── backend_demo/
-│   ├── provider.tf       # backend "s3" configuration
-│   ├── network.tf
-│   ├── ec2.tf
-│   └── generated.tf      # auto-generated from import
+│   ├── terraform.tf      # required_version, required_providers, backend "s3" block
+│   ├── resources.tf      # VPC, subnet, EC2, security group, etc.
+│   ├── import.tf          # import block(s) for existing resources
+│   └── generated.tf      # auto-generated config from -generate-config-out
 │
 └── screenshots/
 ```
